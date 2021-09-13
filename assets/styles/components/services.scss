@@ -1,0 +1,29 @@
+.services{
+  .container{
+    display: flex;
+    gap: 27px;
+    .services__service{
+      border: 1px solid #E6E6E6;
+      .services__service__content{
+        padding: 38px 22px 39px 23px;
+        color: $black;
+        font-family: 'Open Sans', sans-serif;
+        img{
+          margin-bottom: 25px;
+        }
+        h2{
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: 0.426667px;
+          margin-bottom: 13px;
+        }
+        p{
+          font-size: 13px;
+          line-height: 23px;
+          letter-spacing: 0.1875px;
+        }
+      }
+    }
+  }
+}

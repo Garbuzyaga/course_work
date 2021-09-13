@@ -1,0 +1,44 @@
+.capabilities{
+  .container{
+    font-family: 'Open sans', sans-serif;
+    color: $black;
+    display: flex;
+    justify-content: space-between;
+    .section__header{
+      .header__line{
+        margin: 0;
+      }
+    }
+    .capabilities_text_button{
+      font-size: 11px;
+      line-height: 19px;
+      display: flex;
+      gap: 32px;
+      p{
+        letter-spacing: 0.2px;
+        max-width: 406px;
+      }
+      button{
+        cursor: pointer;
+        padding: 11px 29px;
+        font-family: 'Open sans', sans-serif;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 18px;
+        height: 40px;
+        width: 150px;
+        background: $blue;
+        border: none;
+        color: #FFFFFF;
+        letter-spacing: 0.5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &:hover{
+          background: #006E95FF;
+        }
+      }
+    }
+  }
+  margin-bottom: 80px;
+}
