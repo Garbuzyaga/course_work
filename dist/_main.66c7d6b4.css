@@ -21,6 +21,26 @@
   width: 100%;
 }
 
+button {
+  cursor: pointer;
+  font-family: "Open sans", sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+  height: 40px;
+  width: 150px;
+  background: #00A4E5;
+  border: none;
+  color: #FFFFFF;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button:hover {
+  background: #006E95FF;
+}
+
 header {
   padding-top: 41px;
   height: 100vh;
@@ -195,27 +215,10 @@ section .container .section__header .header__line {
   letter-spacing: 0.2px;
   max-width: 406px;
 }
-.capabilities .container .capabilities_text_button button {
-  cursor: pointer;
-  padding: 11px 29px;
-  font-family: "Open sans", sans-serif;
-  font-weight: bold;
-  font-size: 13px;
-  line-height: 18px;
-  height: 40px;
-  width: 150px;
-  background: #00A4E5;
-  border: none;
-  color: #FFFFFF;
-  letter-spacing: 0.5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.capabilities .container .capabilities_text_button button:hover {
-  background: #006E95FF;
-}
 
+.services {
+  margin-bottom: 115px;
+}
 .services .container {
   display: flex;
   gap: 27px;
@@ -242,6 +245,149 @@ section .container .section__header .header__line {
   font-size: 13px;
   line-height: 23px;
   letter-spacing: 0.1875px;
+}
+
+.get_in_touch {
+  background: url("/get_in_touch_bg.4069d6c7.jpg") center no-repeat;
+  background-size: cover;
+  padding-top: 120px;
+  padding-bottom: 231px;
+}
+.get_in_touch .container {
+  max-width: 350px;
+}
+.get_in_touch .container h2 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  color: #48555B;
+  margin-bottom: 35px;
+}
+.get_in_touch .container button {
+  margin: auto;
+}
+
+.newsletter {
+  background: #171819;
+}
+.newsletter .container {
+  padding-top: 30px;
+}
+.newsletter .container form {
+  display: flex;
+  justify-content: space-around;
+}
+.newsletter .container form label span {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0.846154px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.newsletter .container form .newsletter__input_button {
+  display: flex;
+  margin-bottom: 30px;
+}
+.newsletter .container form .newsletter__input_button input {
+  height: 40px;
+  width: 250px;
+  padding-left: 16px;
+  border: 1px solid #979797;
+}
+
+footer {
+  background: #141A20;
+  color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+}
+footer .container {
+  display: flex;
+  padding-top: 42px;
+}
+footer .container li {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 25px;
+}
+footer .container li:first-of-type {
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.846154px;
+  margin-bottom: 10px;
+}
+footer .container li:not(:first-of-type) {
+  cursor: pointer;
+}
+footer .container li:not(:first-of-type):hover {
+  color: #00A4E5;
+}
+footer .container .footer__company {
+  margin-right: 71px;
+}
+footer .container .footer__company li:last-of-type {
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 19px;
+  cursor: auto;
+}
+footer .container .footer__company li:last-of-type:hover {
+  color: #FFFFFF;
+}
+footer .container .footer__links {
+  min-width: 76px;
+  margin-right: 34px;
+  margin-bottom: 39px;
+}
+footer .container .footer__faq {
+  margin-right: 38px;
+}
+footer .container .footer__faq li:first-of-type {
+  margin-bottom: 25px;
+}
+footer .container .footer__blog {
+  margin-right: 58px;
+}
+footer .container .footer__blog li:first-of-type {
+  margin-bottom: 25px;
+}
+footer .container .footer__contact_us {
+  margin-right: 46px;
+}
+footer .container .footer__contact_us li {
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 16px;
+}
+footer .container .footer__socials {
+  display: flex;
+  gap: 24.5px;
+}
+footer .container .footer__socials i {
+  cursor: pointer;
+}
+footer .container .footer__socials i:hover {
+  color: #00A4E5;
+}
+
+.copyright {
+  background: #171819;
+}
+.copyright .container h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 15px;
+  letter-spacing: 0.846154px;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 22px;
+  padding-bottom: 22px;
 }
 
 /*# sourceMappingURL=/_main.66c7d6b4.css.map */

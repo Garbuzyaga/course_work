@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\fonts\\BebasNeueBold.eot":[["BebasNeueBold.24345f5a.eot","assets/fonts/BebasNeueBold.eot"],"assets/fonts/BebasNeueBold.eot"],"./..\\fonts\\BebasNeueBold.woff":[["BebasNeueBold.197b8684.woff","assets/fonts/BebasNeueBold.woff"],"assets/fonts/BebasNeueBold.woff"],"./..\\fonts\\BebasNeueBold.ttf":[["BebasNeueBold.79041798.ttf","assets/fonts/BebasNeueBold.ttf"],"assets/fonts/BebasNeueBold.ttf"],"./..\\img\\header_background.jpg":[["header_background.fd4e4b21.jpg","assets/img/header_background.jpg"],"assets/img/header_background.jpg"],"./..\\img\\we_plan.jpg":[["we_plan.6211fb5c.jpg","assets/img/we_plan.jpg"],"assets/img/we_plan.jpg"],"./..\\img\\we_manage.jpg":[["we_manage.c7846f05.jpg","assets/img/we_manage.jpg"],"assets/img/we_manage.jpg"],"./..\\img\\we_build.jpg":[["we_build.44991e3a.jpg","assets/img/we_build.jpg"],"assets/img/we_build.jpg"],"_css_loader":"../../../Users/egar/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../Users/egar/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./..\\fonts\\BebasNeueBold.eot":[["BebasNeueBold.24345f5a.eot","assets/fonts/BebasNeueBold.eot"],"assets/fonts/BebasNeueBold.eot"],"./..\\fonts\\BebasNeueBold.woff":[["BebasNeueBold.197b8684.woff","assets/fonts/BebasNeueBold.woff"],"assets/fonts/BebasNeueBold.woff"],"./..\\fonts\\BebasNeueBold.ttf":[["BebasNeueBold.79041798.ttf","assets/fonts/BebasNeueBold.ttf"],"assets/fonts/BebasNeueBold.ttf"],"./..\\img\\header_background.jpg":[["header_background.fd4e4b21.jpg","assets/img/header_background.jpg"],"assets/img/header_background.jpg"],"./..\\img\\we_plan.jpg":[["we_plan.6211fb5c.jpg","assets/img/we_plan.jpg"],"assets/img/we_plan.jpg"],"./..\\img\\we_manage.jpg":[["we_manage.c7846f05.jpg","assets/img/we_manage.jpg"],"assets/img/we_manage.jpg"],"./..\\img\\we_build.jpg":[["we_build.44991e3a.jpg","assets/img/we_build.jpg"],"assets/img/we_build.jpg"],"./..\\img\\get_in_touch_bg.jpg":[["get_in_touch_bg.4069d6c7.jpg","assets/img/get_in_touch_bg.jpg"],"assets/img/get_in_touch_bg.jpg"],"_css_loader":"../../../Users/egar/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../Users/egar/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62182" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53438" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

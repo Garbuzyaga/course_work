@@ -1,0 +1,101 @@
+footer{
+  background: #141A20;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  .container{
+    display: flex;
+    padding-top: 42px;
+    li {
+      font-weight: 600;
+      font-size: 11px;
+      line-height: 25px;
+      &:first-of-type {
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 15px;
+        letter-spacing: 0.846154px;
+        margin-bottom: 10px;
+      }
+      &:not(:first-of-type) {
+        cursor: pointer;
+        &:hover {
+          color: $blue;
+        }
+      }
+    }
+    .footer__company{
+      li {
+        &:last-of-type {
+          font-weight: normal;
+          font-size: 11px;
+          line-height: 19px;
+          cursor: auto;
+          &:hover
+          {
+            color: #FFFFFF;
+          }
+        }
+      }
+      margin-right: 71px;
+    }
+    .footer__links{
+      min-width: 76px;
+      margin-right: 34px;
+      margin-bottom: 39px;
+    }
+    .footer__faq{
+      li {
+        &:first-of-type {
+          margin-bottom: 25px;
+        }
+      }
+      margin-right: 38px;
+    }
+    .footer__blog{
+      li {
+        &:first-of-type {
+          margin-bottom: 25px;
+        }
+      }
+      margin-right: 58px;
+
+    }
+    .footer__contact_us{
+      margin-right: 46px;
+      li{
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 16px;
+      }
+    }
+
+    .footer__socials{
+      display: flex;
+      gap: 24.5px;
+      i{
+        cursor: pointer;
+        &:hover{
+          color: $blue;
+        }
+      }
+    }
+
+  }
+}
+
+.copyright{
+  background: #171819;
+  .container {
+    h4 {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 11px;
+      font-weight: normal;
+      line-height: 15px;
+      letter-spacing: 0.846154px;
+      color: #FFFFFF;
+      text-align: center;
+      padding-top: 22px;
+      padding-bottom: 22px;
+    }
+  }
+}

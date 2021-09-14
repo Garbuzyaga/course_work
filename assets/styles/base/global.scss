@@ -12,3 +12,23 @@
   margin: auto;
   width: 100%;
 }
+
+button{
+  cursor: pointer;
+  font-family: 'Open sans', sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+  height: 40px;
+  width: 150px;
+  background: $blue;
+  border: none;
+  color: #FFFFFF;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:hover{
+    background: #006E95FF;
+  }
+}
