@@ -66,6 +66,12 @@ footer{
         font-weight: normal;
         font-size: 11px;
         line-height: 16px;
+        &:not(:first-of-type) {
+          cursor: auto;
+          &:hover{
+            color: #fff;
+          }
+        }
       }
     }
 
